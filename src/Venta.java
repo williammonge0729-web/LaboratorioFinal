@@ -42,8 +42,15 @@ public class Venta {
 
     public ArrayList<DetalleVenta> getDetalles() { return detalles; }
 
-   
     public String toString() {
-        return "Venta{" + "idVenta=" + idVenta + ", fecha='" + fecha + '\'' + ", total=" + total + '}';
+        return "Venta{" +
+                "idVenta=" + idVenta +
+                ", fecha='" + fecha + '\'' +
+                ", total=" + total +
+                ", cliente=" + cliente +
+                ", empleado=" + empleado +
+                ", detalles=" + detalles +
+                '}';
     }
+    
 }
